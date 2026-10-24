@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+._*
+
+# SSH 密钥 —— 绝不入库
+.ssh*/
+**/id_rsa
+**/id_ed25519
+**/id_ecdsa
+
+# 日志
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
